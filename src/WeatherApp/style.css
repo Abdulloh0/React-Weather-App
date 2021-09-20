@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.topNav {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #89CFF0;
+}
+
+.topNav-heading {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #89CFF0;
+  padding: 10px 20px;
+}
+
+.input:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 1px solid #89CFF0;
+}
+
+.city {
+  max-width: 300px;
+  height: 300px;
+  box-shadow: 0 0 10px #89CFF0;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.city-name {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.city-temp {
+  font-size: 20px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
